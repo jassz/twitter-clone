@@ -1,18 +1,14 @@
 import './App.css';
 import Sidebar from './Sidebar';
+import Feed from './Feed';
+import Widgets from './Widgets';
 
 function App() {
   return (
-    <div className="">
-        <h1>
-          Lets Code Together!
-        </h1>
-
-        {/* {sidebar} */}
+    <div className="app">
         <Sidebar />
-        {/* {feeds} */}
-
-        {/* {widgets} */}
+        <Feed />
+        <Widgets />
     </div>
   );
 }
