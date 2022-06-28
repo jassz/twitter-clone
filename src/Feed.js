@@ -4,6 +4,9 @@ import Post from "./Post";
 import "./Feed.css";
 import db from "./firebase";
 import FlipMove from "react-flip-move";
+import {
+  TwitterTimelineEmbed
+} from "react-twitter-embed";
 
 function Feed() {
   const [posts, setPosts] = useState([]);
@@ -21,6 +24,10 @@ function Feed() {
       </div>
 
       <TweetBox />
+      <TwitterTimelineEmbed
+          sourceType="profile"
+          screenName="9GAG"
+        />
 
       <FlipMove>
         {posts.map((post) => (
