@@ -2,6 +2,13 @@ import React, { useState } from "react";
 import "./TweetBox.css";
 import { Avatar, Button } from "@material-ui/core";
 import db from "./firebase";
+import ImageIcon from "@material-ui/icons/ImageSearchOutlined";
+import PollIcon from "@material-ui/icons/PollOutlined";
+import GifIcon from "@material-ui/icons/GifOutlined";
+import CalendarIcon from "@material-ui/icons/CalendarTodayOutlined";
+import EmojiIcon from "@material-ui/icons/EmojiEmotionsOutlined";
+// import { GifIcon } from '@material-ui/icons/gif';
+
 
 function TweetBox() {
   const [tweetMessage, setTweetMessage] = useState("");
@@ -35,13 +42,23 @@ function TweetBox() {
             type="text"
           />
         </div>
-        <input
+        <div className="button">
+        {/* <input
           value={tweetImage}
           onChange={(e) => setTweetImage(e.target.value)}
           className="tweetBox__imageInput"
           placeholder="Optional: Enter image URL"
           type="text"
-        />
+        /> */}
+
+        <div className="icon-class">
+        <ImageIcon className="icon" />
+        <PollIcon className="icon"/>
+        {/* <GifIcon className="icon border"/> */}
+        <CalendarIcon className="icon"/>
+        <EmojiIcon className="icon" />
+        </div>
+        
 
         <Button
           onClick={sendTweet}
@@ -50,6 +67,8 @@ function TweetBox() {
         >
           Tweet
         </Button>
+        </div>
+        
       </form>
     </div>
   );

@@ -14,6 +14,12 @@
 
 .widgets__input > input {
   border: none;
+  outline: transparent;
+  background-color: var(--twitter-background);
+}
+
+.widgets__input:focus-visible {
+  border: none;
   background-color: var(--twitter-background);
 }
 

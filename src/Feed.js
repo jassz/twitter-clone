@@ -22,10 +22,12 @@ function Feed() {
       <div className="feed__header">
         <h2>Home</h2>
       </div>
+
       <TweetBox />
       <TwitterTimelineEmbed
           sourceType="profile"
           screenName="9GAG"
+          // options={{ height: 400 }}
         />
 
       <FlipMove>

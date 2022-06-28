@@ -18,13 +18,13 @@ function Widgets() {
       <div className="widgets__widgetContainer">
         <h2>What's happening</h2>
 
-        <TwitterTweetEmbed tweetId={"1541452163305549824"} />
+        <TwitterTweetEmbed tweetId={"1540686196434579457"} options={{ height: 500 }} />
 
-        <TwitterTimelineEmbed
+        {/* <TwitterTimelineEmbed
           sourceType="profile"
           screenName="9GAG"
-          options={{ height: 400 }}
-        />
+          options={{ height: 550 }}
+        /> */}
 
         <TwitterShareButton
           url={"https://zaizainal.com/"}
