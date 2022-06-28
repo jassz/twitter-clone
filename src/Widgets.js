@@ -25,7 +25,6 @@ function Widgets() {
           screenName="9GAG"
           options={{ height: 550 }}
         /> */}
-
         <TwitterShareButton
           url={"https://zaizainal.com/"}
           options={{ text: "Let's check it out", via: "najanadhirahh" }}
