@@ -4,10 +4,8 @@ import { Avatar, Button } from "@material-ui/core";
 import db from "./firebase";
 import ImageIcon from "@material-ui/icons/ImageSearchOutlined";
 import PollIcon from "@material-ui/icons/PollOutlined";
-import GifIcon from "@material-ui/icons/GifOutlined";
 import CalendarIcon from "@material-ui/icons/CalendarTodayOutlined";
 import EmojiIcon from "@material-ui/icons/EmojiEmotionsOutlined";
-// import { GifIcon } from '@material-ui/icons/gif';
 
 
 function TweetBox() {

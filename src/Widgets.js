@@ -1,7 +1,6 @@
 import React from "react";
 import "./Widgets.css";
 import {
-  TwitterTimelineEmbed,
   TwitterShareButton,
   TwitterTweetEmbed,
 } from "react-twitter-embed";
@@ -16,7 +15,7 @@ function Widgets() {
       </div>
 
       <div className="widgets__widgetContainer">
-        
+
         <h2>What's happening</h2>
 
         <TwitterTweetEmbed tweetId={"1540686196434579457"} options={{ height: 500 }} />
