@@ -1,7 +1,7 @@
 import React from "react";
-import "./Sidebar.css";
+import "../../components/Sidebar/sidebar.css";
 import TwitterIcon from "@material-ui/icons/Twitter";
-import SidebarOption from "./SidebarOption";
+import SidebarOption from "../../components/Sidebar/sidebarOption";
 import HomeIcon from "@material-ui/icons/Home";
 import SearchIcon from "@material-ui/icons/Search";
 import NotificationsNoneIcon from "@material-ui/icons/NotificationsNone";
@@ -17,14 +17,14 @@ function Sidebar() {
     <div className="sidebar">
       <TwitterIcon className="sidebar__twitterIcon" />
 
-      <SidebarOption active Icon={HomeIcon} text="Home" />
-      <SidebarOption Icon={SearchIcon} text="Explore" />
-      <SidebarOption Icon={NotificationsNoneIcon} text="Notifications" />
-      <SidebarOption Icon={MailOutlineIcon} text="Messages" />
-      <SidebarOption Icon={BookmarkBorderIcon} text="Bookmarks" />
-      <SidebarOption Icon={ListAltIcon} text="Lists" />
-      <SidebarOption Icon={PermIdentityIcon} text="Profile" />
-      <SidebarOption Icon={MoreHorizIcon} text="More" />
+      <SidebarOption Icon={HomeIcon} text="Home" url="/" />
+      <SidebarOption Icon={SearchIcon} text="Explore" url="/explore" />
+      <SidebarOption Icon={NotificationsNoneIcon} text="Notifications" url="/notification" />
+      <SidebarOption Icon={MailOutlineIcon} text="Messages" url="/explore" />
+      <SidebarOption Icon={BookmarkBorderIcon} text="Bookmarks" url="/explore" />
+      <SidebarOption Icon={ListAltIcon} text="Lists" url="/explore" />
+      <SidebarOption Icon={PermIdentityIcon} text="Profile" url="/explore" />
+      <SidebarOption Icon={MoreHorizIcon} text="More" url="/explore" />
 
       {/* Button -> Tweet */}
       <Button variant="outlined" className="sidebar__tweet" fullWidth>

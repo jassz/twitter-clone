@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./TweetBox.css";
+import "../../components/Tweetbox/tweetBox.css";
 import { Avatar, Button } from "@material-ui/core";
-import db from "./firebase";
+import db from "../../firebase";
 import ImageIcon from "@material-ui/icons/ImageSearchOutlined";
 import PollIcon from "@material-ui/icons/PollOutlined";
 import CalendarIcon from "@material-ui/icons/CalendarTodayOutlined";
