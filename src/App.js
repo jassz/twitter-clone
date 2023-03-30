@@ -16,7 +16,7 @@ function App() {
       <main className='container middle'>
         <Routes>
           {/* <Route path="/" element={<Navigate to="/feed" />} /> */}
-          <Route path="/feed" element={<Feed />} />
+          <Route path="/" element={<Feed />} />
           <Route path="/explore" element={<Explore />} />
         </Routes>
       </main>

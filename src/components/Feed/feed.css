@@ -18,3 +18,15 @@
 .feed__header > h2 {
   font-size: 20px;
 }
+
+.fyp {
+  text-align: center;
+  border-bottom: 2px solid lightgray;
+  padding: 10px
+}
+
+.fyp > span {
+  width: auto;
+  border-bottom: 8px solid var(--twitter-color);
+  /* border-radius: 10px; */
+}

@@ -23,8 +23,8 @@ body {
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    /* padding-right: 1rem;
+    padding-left: 1rem; */
   }
 }
 @media (min-width: 768px) {
