@@ -23,9 +23,9 @@ function Feed() {
         <h2>Home</h2>
       </div>
 
-      <div className="fyp">
+      {/* <div className="fyp">
         <span>For you</span>
-      </div>
+      </div> */}
 
       <TweetBox />
       <TwitterTimelineEmbed

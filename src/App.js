@@ -4,7 +4,7 @@ import Feed from "./components/Feed/feed";
 import Widgets from "./components/Widgets/widgets";
 import Explore from "./components/Explore/explore";
 import "./App.css";
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     <div className="app">
        {/* <React.Fragment> */}
       <Sidebar />
-      <main className='container middle'>
+      <main className='container'>
         <Routes>
           {/* <Route path="/" element={<Navigate to="/feed" />} /> */}
           <Route path="/" element={<Feed />} />
