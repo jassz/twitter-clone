@@ -17,7 +17,7 @@ const Explore = () => {
                     value=""
                 />
             </div>
-            <Modal />
+            {/* <Modal /> */}
             <h2>Malaysia Trends</h2>
             <TwitterTimelineEmbed
                 sourceType="profile"

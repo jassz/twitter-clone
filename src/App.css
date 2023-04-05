@@ -18,7 +18,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   padding-right: 1rem;
-  padding-left: 1rem;
+  /* padding-left: 1rem; */
 
   width: 100%;
   height: auto;
@@ -67,7 +67,7 @@ body {
   overflow-y: scroll;
 }
 
-.middle::-webkit-scrollbar {
+.container::-webkit-scrollbar {
   display: none;
 }
 
